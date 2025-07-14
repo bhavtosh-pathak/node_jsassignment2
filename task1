@@ -1,0 +1,8 @@
+import path from 'path';
+const filepath = path.parse('C:/Users/HP/Desktop/b.html/lecture1/pat/path.js')
+console.log(filepath);
+console.log(path.basename('C:/Users/HP/Desktop/b.html/lecture1/pat/path.js'));
+console.log(path.dirname('C:/Users/HP/Desktop/b.html/lecture1/pat/path.js'));
+console.log(path.extname('C:/Users/HP/Desktop/b.html/lecture1/pat/path.js'));
+console.log(path.join('/folder','/subfolder','/file.txt'));
+console.log(path.resolve('/folder','/file.js'));
